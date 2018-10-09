@@ -28,6 +28,7 @@
 
 #screenGuess {
     background-color: salmon;
+    color: black;
     font-size: 40px;
     display: flex;
     width: 350px;
@@ -86,4 +87,12 @@
     height: 50px;
     align-items: center;
     justify-content: center;
+}
+
+#winnerBoard {
+    font-size: 30px;
+}
+
+#loserBoard {
+    font-size: 30px;
 }
