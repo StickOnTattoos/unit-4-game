@@ -78,14 +78,14 @@ function scorekeeper() {
         wins++;
         $("#Choosey").text("WINNER!!");
         reset = true;
-        // reset function
+        resetGame();
     } else {
         (startingNumber < playerTotal)
         console.log("loser");
         losses++;
         $("#Choosey").text("LOSER!");
         reset = true;
-        // reset function
+        resetGame();
     }
 }
 
